@@ -20,14 +20,18 @@ Your goal is simple: **survive and escape the monster that killed your friends.*
 - **Fail a QTE** and you risk one of two outcomes:
   - the monster hears you and **runs straight at you**, or
   - a **jump scare** hits the screen.
+- **Crouch** to stay still and quiet. You can't move while crouched.
 
 ### Controls
 
-| Key | Action |
+| Action | Keys |
 | --- | --- |
-| `←` / `→` | Move left / right |
-| `↑` | Jump over obstacles |
-| Random keys | Quick Time Events (shown on screen) |
+| Move left | `←` / `A` / `Q` |
+| Move right | `→` / `D` |
+| Run | Hold `Shift` while moving |
+| Jump over obstacles | `↑` / `W` / `Z` |
+| Crouch (stops movement) | `↓` / `S` |
+| Quick Time Events | Random keys shown on screen |
 
 ## 🏁 Endings
 
@@ -36,9 +40,39 @@ There are two ways to escape:
 1. **Reach civilization** safe and sound.
 2. **Find the shaman**, who can destroy the monster.
 
+## ✨ Features
+
+- Side-scrolling movement: walk, run, crouch and jump
+- Multi-layer **parallax forest background** with infinite horizontal looping
+- Smooth camera that follows the player
+- Sprite animations for idle, walk, run, crouch (with a stand-up animation) and jump/fall
+- Opening scene with the group around the campfire
+
+## 🛠️ Built With
+
+- **Engine:** Unity 6 (2D)
+- **Language:** C#
+- **Input:** Unity Input System package
+- **Art:** pixel art 
+- **Audio:** --------
+
+## 🗂️ Main Scripts
+
+| Script | Role |
+| --- | --- |
+| `JoueurMouvement.cs` | Player movement: walk, run, crouch, jump |
+| `JoueurAnimation.cs` | Sends the player's state to the Animator |
+| `CameraSuivi.cs` | Smooth camera that follows the player |
+| `EffetParallaxe.cs` | Parallax scrolling and looping for background layers |
+| `SolInfini.cs` | Keeps the floor collider under the player |
+
 ## 🗺️ Roadmap
 
-- [ ] Player movement and jumping
+- [x] Player movement (walk, run, crouch, jump)
+- [x] Player animations
+- [x] Camera follow
+- [x] Parallax background
+- [ ] Opening campfire scene
 - [ ] Hiding spots
 - [ ] QTE system
 - [ ] Monster AI (chase and jump scare logic)
@@ -52,6 +86,8 @@ There are two ways to escape:
 Copyright (c) 2026 William Girouard-Miot. All rights reserved.
 
 No permission is granted to use, copy, modify, or distribute this software or its assets without explicit written permission from the author.
+
+Third-party assets (sprites, backgrounds, audio) remain under their own licenses. Check each pack's terms before redistributing.
 
 ## 👤 Author
 
