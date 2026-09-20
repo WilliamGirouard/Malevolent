@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 7b612c9771e2f4449bd1cd54ff5a2563
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4079260396820746738
+    second: normal-purple_0
+  - first:
+      213: -882887206907018557
+    second: normal-purple_1
+  - first:
+      213: -6894865473693979137
+    second: normal-purple_2
+  - first:
+      213: -5677301128807542517
+    second: normal-purple_3
+  - first:
+      213: -2500715111037531894
+    second: normal-purple_4
+  - first:
+      213: 6191515659571274818
+    second: normal-purple_5
+  - first:
+      213: -8353339876538715555
+    second: normal-purple_6
+  - first:
+      213: -4323292101290079163
+    second: normal-purple_7
+  - first:
+      213: -7256353481180609500
+    second: normal-purple_8
+  - first:
+      213: -6304105214426788233
+    second: normal-purple_9
+  - first:
+      213: -3517363570194931615
+    second: normal-purple_10
+  - first:
+      213: 4008761921608320793
+    second: normal-purple_11
+  - first:
+      213: -5858121931177849508
+    second: normal-purple_12
+  - first:
+      213: 1466341502091259951
+    second: normal-purple_13
+  - first:
+      213: -5225737805777450353
+    second: normal-purple_14
+  - first:
+      213: 196794428627647446
+    second: normal-purple_15
+  - first:
+      213: 1778719524493949516
+    second: normal-purple_16
+  - first:
+      213: -868710811864290273
+    second: normal-purple_17
+  - first:
+      213: -3666601649660048889
+    second: normal-purple_18
+  - first:
+      213: 947085663681889162
+    second: normal-purple_19
+  - first:
+      213: -8022028070714272956
+    second: normal-purple_20
+  - first:
+      213: 8550236796678198267
+    second: normal-purple_21
+  - first:
+      213: 1190111280761189284
+    second: normal-purple_22
+  - first:
+      213: -2494608840759722659
+    second: normal-purple_23
+  - first:
+      213: 4554134145401669010
+    second: normal-purple_24
+  - first:
+      213: 7337643916590079364
+    second: normal-purple_25
+  - first:
+      213: -1829137713393258808
+    second: normal-purple_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: normal-purple_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 342
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e2e2d284e8367c0800000000000000
+      internalID: -4079260396820746738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 342
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2029753ca5fb3f0800000000000000
+      internalID: -882887206907018557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd6d5ad1648050a0800000000000000
+      internalID: -6894865473693979137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 278
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b019086f3bc2631b0800000000000000
+      internalID: -5677301128807542517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09082a1bdcab4dd0800000000000000
+      internalID: -2500715111037531894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244a30630beace550800000000000000
+      internalID: 6191515659571274818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52fdc2e3a9f21c80800000000000000
+      internalID: -8353339876538715555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 278
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c4a5a5db49004c0800000000000000
+      internalID: -4323292101290079163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4248f8564f04c4b90800000000000000
+      internalID: -7256353481180609500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 214
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e476345b15388a0800000000000000
+      internalID: -6304105214426788233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 150
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160a1acf770df2fc0800000000000000
+      internalID: -3517363570194931615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 150
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91783967abbf1a730800000000000000
+      internalID: 4008761921608320793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 150
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d08392425c3bea0800000000000000
+      internalID: -5858121931177849508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20ff8fb3dd795410800000000000000
+      internalID: 1466341502091259951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 150
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a4e4d17237a77b0800000000000000
+      internalID: -5225737805777450353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 150
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db702c7d772bb200800000000000000
+      internalID: 196794428627647446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 86
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a7384cbf74fa810800000000000000
+      internalID: 1778719524493949516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 86
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ca9468e18b1f3f0800000000000000
+      internalID: -868710811864290273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 86
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ac623e93d9d1dc0800000000000000
+      internalID: -3666601649660048889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 86
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83cf9ba469b42d00800000000000000
+      internalID: 947085663681889162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 22
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4431dd2e8f70ca090800000000000000
+      internalID: -8022028070714272956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 22
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf35a73c01b88a670800000000000000
+      internalID: 8550236796678198267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 22
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3b4f487ef148010800000000000000
+      internalID: 1190111280761189284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 22
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5db7f0f97e516dd0800000000000000
+      internalID: -2494608840759722659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_24
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 22
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295c42c50e8833f30800000000000000
+      internalID: 4554134145401669010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 22
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d58a0044c84d560800000000000000
+      internalID: 7337643916590079364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-purple_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ceacebd0f89d96e0800000000000000
+      internalID: -1829137713393258808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      normal-purple_0: -4079260396820746738
+      normal-purple_1: -882887206907018557
+      normal-purple_10: -3517363570194931615
+      normal-purple_11: 4008761921608320793
+      normal-purple_12: -5858121931177849508
+      normal-purple_13: 1466341502091259951
+      normal-purple_14: -5225737805777450353
+      normal-purple_15: 196794428627647446
+      normal-purple_16: 1778719524493949516
+      normal-purple_17: -868710811864290273
+      normal-purple_18: -3666601649660048889
+      normal-purple_19: 947085663681889162
+      normal-purple_2: -6894865473693979137
+      normal-purple_20: -8022028070714272956
+      normal-purple_21: 8550236796678198267
+      normal-purple_22: 1190111280761189284
+      normal-purple_23: -2494608840759722659
+      normal-purple_24: 4554134145401669010
+      normal-purple_25: 7337643916590079364
+      normal-purple_26: -1829137713393258808
+      normal-purple_3: -5677301128807542517
+      normal-purple_4: -2500715111037531894
+      normal-purple_5: 6191515659571274818
+      normal-purple_6: -8353339876538715555
+      normal-purple_7: -4323292101290079163
+      normal-purple_8: -7256353481180609500
+      normal-purple_9: -6304105214426788233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

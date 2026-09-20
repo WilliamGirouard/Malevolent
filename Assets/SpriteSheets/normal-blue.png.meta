@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 1987d49b83ec6f245926d92e6b5c42e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8420226020565104747
+    second: normal-blue_0
+  - first:
+      213: 1547486635002970967
+    second: normal-blue_1
+  - first:
+      213: 7433726883535540385
+    second: normal-blue_2
+  - first:
+      213: 7092369059206106001
+    second: normal-blue_3
+  - first:
+      213: -7183812809088023127
+    second: normal-blue_4
+  - first:
+      213: -5134170917889271376
+    second: normal-blue_5
+  - first:
+      213: 4282815633746241750
+    second: normal-blue_6
+  - first:
+      213: 7241545778736501834
+    second: normal-blue_7
+  - first:
+      213: 2304045738309123850
+    second: normal-blue_8
+  - first:
+      213: 4575424473002470555
+    second: normal-blue_9
+  - first:
+      213: 2407396899110705000
+    second: normal-blue_10
+  - first:
+      213: 2928421942860820607
+    second: normal-blue_11
+  - first:
+      213: -3038213175052005012
+    second: normal-blue_12
+  - first:
+      213: -2290826468949412816
+    second: normal-blue_13
+  - first:
+      213: -3450921416895665395
+    second: normal-blue_14
+  - first:
+      213: 4132811470465000397
+    second: normal-blue_15
+  - first:
+      213: 4713651418598799204
+    second: normal-blue_16
+  - first:
+      213: 7947082053901527127
+    second: normal-blue_17
+  - first:
+      213: -6012068525463975005
+    second: normal-blue_18
+  - first:
+      213: -5673615292780524707
+    second: normal-blue_19
+  - first:
+      213: -7217326367707149218
+    second: normal-blue_20
+  - first:
+      213: 9091382495051166636
+    second: normal-blue_21
+  - first:
+      213: -8617431760502335947
+    second: normal-blue_22
+  - first:
+      213: -792219328990968743
+    second: normal-blue_23
+  - first:
+      213: -7217034710397331585
+    second: normal-blue_24
+  - first:
+      213: 1438153730039353327
+    second: normal-blue_25
+  - first:
+      213: -6065477060662699539
+    second: normal-blue_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: normal-blue_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 342
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68b84414f6aad470800000000000000
+      internalID: 8420226020565104747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 342
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753440645e6c97510800000000000000
+      internalID: 1547486635002970967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0586a0737e92760800000000000000
+      internalID: 7433726883535540385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 278
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b83f515182d6260800000000000000
+      internalID: 7092369059206106001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a54865cf48fd4c90800000000000000
+      internalID: -7183812809088023127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9911f80c2cfb8b0800000000000000
+      internalID: -5134170917889271376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d82fe7a02e9f6b30800000000000000
+      internalID: 4282815633746241750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 278
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a449156b4832f7460800000000000000
+      internalID: 7241545778736501834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 278
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ffa22446d99ff10800000000000000
+      internalID: 2304045738309123850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 214
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ce0f9015c2f7f30800000000000000
+      internalID: 4575424473002470555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 150
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867dedc89bac86120800000000000000
+      internalID: 2407396899110705000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 150
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70bda8dd38d3a820800000000000000
+      internalID: 2928421942860820607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 150
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c611d15e63916d5d0800000000000000
+      internalID: -3038213175052005012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 150
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034353cb6795530e0800000000000000
+      internalID: -2290826468949412816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 150
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b652e414ddb10d0800000000000000
+      internalID: -3450921416895665395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_15
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 150
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3e9b4c222ba5930800000000000000
+      internalID: 4132811470465000397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 86
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467f890cdf04a6140800000000000000
+      internalID: 4713651418598799204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 86
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758aea7c505b94e60800000000000000
+      internalID: 7947082053901527127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 86
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abc9668787d09ca0800000000000000
+      internalID: -6012068525463975005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 86
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bc79983f44341b0800000000000000
+      internalID: -5673615292780524707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_20
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 22
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c41c858e7e6db90800000000000000
+      internalID: -7217326367707149218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 22
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3bab606341b2e70800000000000000
+      internalID: 9091382495051166636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 22
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536d61f887bb86880800000000000000
+      internalID: -8617431760502335947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 22
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9548b47b7b87105f0800000000000000
+      internalID: -792219328990968743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_24
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 22
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f775a1b1b21f7db90800000000000000
+      internalID: -7217034710397331585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 22
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef0663a23955f310800000000000000
+      internalID: 1438153730039353327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-blue_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de95be5efb813dba0800000000000000
+      internalID: -6065477060662699539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      normal-blue_0: 8420226020565104747
+      normal-blue_1: 1547486635002970967
+      normal-blue_10: 2407396899110705000
+      normal-blue_11: 2928421942860820607
+      normal-blue_12: -3038213175052005012
+      normal-blue_13: -2290826468949412816
+      normal-blue_14: -3450921416895665395
+      normal-blue_15: 4132811470465000397
+      normal-blue_16: 4713651418598799204
+      normal-blue_17: 7947082053901527127
+      normal-blue_18: -6012068525463975005
+      normal-blue_19: -5673615292780524707
+      normal-blue_2: 7433726883535540385
+      normal-blue_20: -7217326367707149218
+      normal-blue_21: 9091382495051166636
+      normal-blue_22: -8617431760502335947
+      normal-blue_23: -792219328990968743
+      normal-blue_24: -7217034710397331585
+      normal-blue_25: 1438153730039353327
+      normal-blue_26: -6065477060662699539
+      normal-blue_3: 7092369059206106001
+      normal-blue_4: -7183812809088023127
+      normal-blue_5: -5134170917889271376
+      normal-blue_6: 4282815633746241750
+      normal-blue_7: 7241545778736501834
+      normal-blue_8: 2304045738309123850
+      normal-blue_9: 4575424473002470555
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
