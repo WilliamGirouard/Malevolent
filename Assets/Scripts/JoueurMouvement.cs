@@ -20,12 +20,12 @@ public class JoueurMouvement : MonoBehaviour
     [SerializeField] private float seReleverDuration = 0.6f;
 
     [Header("État")]
-    public bool peutBouger = true; // à passer à false pendant un QTE, une cachette, etc.
+    public bool peutBouger = true;
 
     // Lus par le script d'animation
     public bool EstAuSol { get; private set; }
     public bool EstAccroupi { get; private set; }
-    public Vector2 VitesseActuelle => rb.linearVelocity; 
+    public Vector2 VitesseActuelle => rb.linearVelocity;
 
     private Rigidbody2D rb;
     private Collider2D col;
@@ -49,17 +49,25 @@ public class JoueurMouvement : MonoBehaviour
         EstAccroupi = false;
 
         Keyboard clavier = Keyboard.current;
-        if (clavier == null || !peutBouger) return;
+        if (clavier == null || !peutBouger)
+        {
+            return;
+        }
 
-        // Droite : flèche droite ou D
+        // Droite: flèche droite ou D
         if (clavier.rightArrowKey.isPressed || clavier.dKey.isPressed)
+        {
             direction += 1f;
+        }
 
-        // Gauche : flèche gauche, A (QWERTY)
+        // Gauche: flèche gauche ou A 
         if (clavier.leftArrowKey.isPressed || clavier.aKey.isPressed)
+        {
             direction -= 1f;
+        }
 
-        // Accroupi : flèche bas ou S (seulement au sol)
+
+        // Accroupi: flèche bas ou S
         bool basAppuye = clavier.downArrowKey.isPressed || clavier.sKey.isPressed;
         EstAccroupi = basAppuye && EstAuSol;
 
@@ -74,17 +82,19 @@ public class JoueurMouvement : MonoBehaviour
             direction = 0f;
         }
 
-        // Course : Shift (impossible accroupi)
+        // Course: Shift 
         court = clavier.leftShiftKey.isPressed && !EstAccroupi && !seReleve;
 
-        // Saut : flèche haut, W ou Z (impossible accroupi)
+        // Saut: flèche haut ou W
         bool sautAppuye = clavier.upArrowKey.wasPressedThisFrame || clavier.wKey.wasPressedThisFrame;
-                       
+
 
         if (sautAppuye && !EstAccroupi && !seReleve)
+        {
             sautDemande = true;
+        }
 
-        // Retourne le joueur (et la lampe de poche si c'est un enfant)
+        // Changement de direction du joueur (inversement axe X)
         if (direction != 0f)
         {
             Vector3 echelle = transform.localScale;
@@ -99,15 +109,22 @@ public class JoueurMouvement : MonoBehaviour
 
         // Accroupi = immobile (il peut quand même se tourner)
         float vitesse = vitesseMarche;
-        if (EstAccroupi) vitesse = 0f;
-        else if (court) vitesse = vitesseCourse;
+        if (EstAccroupi)
+        {
+            vitesse = 0f;
+        }
+        else if (court)
+        {
+            vitesse = vitesseCourse;
+        }
 
         Vector2 v = rb.linearVelocity;
         v.x = direction * vitesse;
 
         if (sautDemande && EstAuSol)
+        {
             v.y = forceSaut;
-
+        }
         sautDemande = false;
         rb.linearVelocity = v;
     }

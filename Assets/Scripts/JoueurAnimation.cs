@@ -8,7 +8,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class JoueurAnimation : MonoBehaviour
 {
-    [SerializeField] private JoueurMouvement mouvement; 
+    [SerializeField] private JoueurMouvement mouvement;
 
     private Animator animator;
 
@@ -17,13 +17,18 @@ public class JoueurAnimation : MonoBehaviour
         animator = GetComponent<Animator>();
 
         if (mouvement == null)
+        {
             mouvement = GetComponentInParent<JoueurMouvement>();
+        }
+
     }
 
     private void Update()
     {
-        if (mouvement == null) return;
-
+        if (mouvement == null)
+        {
+            return;
+        }
         Vector2 vitesse = mouvement.VitesseActuelle;
 
         animator.SetFloat("Vitesse", Mathf.Abs(vitesse.x)); // vitesse horizontale (toujours positive)

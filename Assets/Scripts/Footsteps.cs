@@ -32,13 +32,17 @@ public class Footsteps : MonoBehaviour
         source.loop = false;
 
         if (mouvement == null)
+        {
             mouvement = GetComponentInParent<JoueurMouvement>();
+        }
+
     }
 
     private void Update()
     {
-        if (synchroAvecAnimation || mouvement == null) return;
-
+        if (synchroAvecAnimation || mouvement == null) {
+            return;
+        }
         float vitesse = Mathf.Abs(mouvement.VitesseActuelle.x);
         bool marche = mouvement.EstAuSol && !mouvement.EstAccroupi && vitesse > 0.1f;
 

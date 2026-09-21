@@ -20,14 +20,18 @@ public class SolInfini : MonoBehaviour
         if (cible == null)
         {
             var joueur = FindFirstObjectByType<JoueurMouvement>();
-            if (joueur != null) cible = joueur.transform;
+            if (joueur != null) {
+                cible = joueur.transform;
+            }
         }
     }
 
     // FixedUpdate : même rythme que la physique, donc pas de saccades sous les pieds du joueur
     private void FixedUpdate()
     {
-        if (cible == null) return;
+        if (cible == null) {
+            return;
+        }
 
         transform.position = new Vector3(cible.position.x, yInitial, zInitial);
     }
