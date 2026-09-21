@@ -1,3 +1,4 @@
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -15,6 +16,8 @@ public class JoueurMouvement : MonoBehaviour
     [Header("Saut")]
     [SerializeField] private float forceSaut = 9f;
     [SerializeField] private LayerMask coucheSol;
+    [Header("Se relever")]
+    [SerializeField] private float seReleverDuration = 0.6f;
 
     [Header("État")]
     public bool peutBouger = true; // à passer à false pendant un QTE, une cachette, etc.
@@ -22,13 +25,15 @@ public class JoueurMouvement : MonoBehaviour
     // Lus par le script d'animation
     public bool EstAuSol { get; private set; }
     public bool EstAccroupi { get; private set; }
-    public Vector2 VitesseActuelle => rb.linearVelocity; // Unity 5/2022/2023 : remplace par rb.velocity
+    public Vector2 VitesseActuelle => rb.linearVelocity; 
 
     private Rigidbody2D rb;
     private Collider2D col;
     private float direction;
     private bool court;
     private bool sautDemande;
+    private bool etaitAccroupi;
+    private float finSeRelever;
 
     private void Awake()
     {
@@ -50,23 +55,33 @@ public class JoueurMouvement : MonoBehaviour
         if (clavier.rightArrowKey.isPressed || clavier.dKey.isPressed)
             direction += 1f;
 
-        // Gauche : flèche gauche, A (QWERTY) ou Q (AZERTY)
-        if (clavier.leftArrowKey.isPressed || clavier.aKey.isPressed || clavier.qKey.isPressed)
+        // Gauche : flèche gauche, A (QWERTY)
+        if (clavier.leftArrowKey.isPressed || clavier.aKey.isPressed)
             direction -= 1f;
 
         // Accroupi : flèche bas ou S (seulement au sol)
         bool basAppuye = clavier.downArrowKey.isPressed || clavier.sKey.isPressed;
         EstAccroupi = basAppuye && EstAuSol;
 
+        if (etaitAccroupi && !EstAccroupi && EstAuSol)
+        {
+            finSeRelever = Time.time + seReleverDuration;
+        }
+        etaitAccroupi = EstAccroupi;
+        bool seReleve = Time.time < finSeRelever;
+        if (seReleve)
+        {
+            direction = 0f;
+        }
+
         // Course : Shift (impossible accroupi)
-        court = clavier.leftShiftKey.isPressed && !EstAccroupi;
+        court = clavier.leftShiftKey.isPressed && !EstAccroupi && !seReleve;
 
         // Saut : flèche haut, W ou Z (impossible accroupi)
-        bool sautAppuye = clavier.upArrowKey.wasPressedThisFrame
-                       || clavier.wKey.wasPressedThisFrame
-                       || clavier.zKey.wasPressedThisFrame;
+        bool sautAppuye = clavier.upArrowKey.wasPressedThisFrame || clavier.wKey.wasPressedThisFrame;
+                       
 
-        if (sautAppuye && !EstAccroupi)
+        if (sautAppuye && !EstAccroupi && !seReleve)
             sautDemande = true;
 
         // Retourne le joueur (et la lampe de poche si c'est un enfant)
@@ -87,14 +102,14 @@ public class JoueurMouvement : MonoBehaviour
         if (EstAccroupi) vitesse = 0f;
         else if (court) vitesse = vitesseCourse;
 
-        Vector2 v = rb.linearVelocity; // Unity 5/2022/2023 : remplace par rb.velocity
+        Vector2 v = rb.linearVelocity;
         v.x = direction * vitesse;
 
         if (sautDemande && EstAuSol)
             v.y = forceSaut;
 
         sautDemande = false;
-        rb.linearVelocity = v;         // Unity 5/2022/2023 : remplace par rb.velocity
+        rb.linearVelocity = v;
     }
 
     private bool VerifierSol()

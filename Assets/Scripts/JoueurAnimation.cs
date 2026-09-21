@@ -8,7 +8,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class JoueurAnimation : MonoBehaviour
 {
-    [SerializeField] private JoueurMouvement mouvement; // laisse vide : trouvé automatiquement
+    [SerializeField] private JoueurMouvement mouvement; 
 
     private Animator animator;
 
