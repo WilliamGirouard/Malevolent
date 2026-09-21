@@ -33,29 +33,42 @@ public class EffetParallaxe : MonoBehaviour
     private void Start()
     {
         if (cameraCible == null && Camera.main != null)
+        {
             cameraCible = Camera.main.transform;
+        }
 
-        // Doit être fait AVANT d'enregistrer la position initiale
         if (remplirHauteurEcran)
+        {
             AjusterALaHauteurEcran();
+        }
 
         positionInitiale = transform.position;
 
         if (cameraCible != null)
+        {
             positionCameraInitiale = cameraCible.position;
+        }
 
         if (boucleInfinie)
+        {
             ConfigurerBoucle();
+        }
+
     }
 
     private void AjusterALaHauteurEcran()
     {
-        if (cameraCible == null) return;
-
+        if (cameraCible == null)
+        {
+            return;
+        }
         var sr = GetComponent<SpriteRenderer>();
         var cam = cameraCible.GetComponent<Camera>();
 
-        if (sr == null || sr.sprite == null || cam == null || !cam.orthographic) return;
+        if (sr == null || sr.sprite == null || cam == null || !cam.orthographic)
+        {
+            return;
+        }
 
         float hauteurEcran = cam.orthographicSize * 2f * margeVerticale;
         float echelle = hauteurEcran / sr.sprite.bounds.size.y;
@@ -63,11 +76,7 @@ public class EffetParallaxe : MonoBehaviour
         transform.localScale = new Vector3(echelle, echelle, 1f);
 
         // Centre la couche verticalement sur la caméra
-        transform.position = new Vector3(
-            transform.position.x,
-            cameraCible.position.y,
-            transform.position.z
-        );
+        transform.position = new Vector3(transform.position.x, cameraCible.position.y, transform.position.z);
     }
 
     private void ConfigurerBoucle()
@@ -80,7 +89,6 @@ public class EffetParallaxe : MonoBehaviour
             boucleInfinie = false;
             return;
         }
-
         float largeurSprite = sr.sprite.bounds.size.x;
 
         // Répète le sprite 3 fois pour qu'il n'y ait jamais de trou
@@ -92,34 +100,27 @@ public class EffetParallaxe : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (cameraCible == null) return;
-
+        if (cameraCible == null)
+        {
+            return;
+        }
         Vector3 mouvementCamera = cameraCible.position - positionCameraInitiale;
         decalageAutomatique += vitesseAutomatique * Time.deltaTime;
 
-        float y = positionInitiale.y
-                + mouvementCamera.y * suiviVertical
-                + decalageAutomatique.y;
+        float y = positionInitiale.y + mouvementCamera.y * suiviVertical + decalageAutomatique.y;
 
         if (boucleInfinie)
         {
             // Position de la couche par rapport à la caméra
-            float relatif = (positionInitiale.x - positionCameraInitiale.x)
-                          - mouvementCamera.x * (1f - suiviHorizontal)
-                          + decalageAutomatique.x;
+            float relatif = (positionInitiale.x - positionCameraInitiale.x) - mouvementCamera.x * (1f - suiviHorizontal) + decalageAutomatique.x;
 
             // Garde la couche à +/- une demi-tuile de la caméra
             relatif = Mathf.Repeat(relatif + largeurTuile / 2f, largeurTuile) - largeurTuile / 2f;
-
             transform.position = new Vector3(cameraCible.position.x + relatif, y, positionInitiale.z);
         }
         else
         {
-            transform.position = new Vector3(
-                positionInitiale.x + mouvementCamera.x * suiviHorizontal + decalageAutomatique.x,
-                y,
-                positionInitiale.z
-            );
+            transform.position = new Vector3(positionInitiale.x + mouvementCamera.x * suiviHorizontal + decalageAutomatique.x, y, positionInitiale.z);
         }
     }
 }

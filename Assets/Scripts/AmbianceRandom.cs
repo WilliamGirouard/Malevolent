@@ -41,7 +41,10 @@ public class AmbianceRandom : MonoBehaviour
     public void Demarrer()
     {
         if (boucle == null && pistes != null && pistes.Length > 0)
+        {
             boucle = StartCoroutine(Boucle());
+        }
+
     }
 
     // Arrête l'ambiance en douceur (par exemple pendant une poursuite ou à la fin du jeu)
@@ -59,7 +62,9 @@ public class AmbianceRandom : MonoBehaviour
     private IEnumerator Boucle()
     {
         if (delaiDepart > 0f)
+        {
             yield return new WaitForSeconds(delaiDepart);
+        }
 
         while (true)
         {
@@ -74,7 +79,9 @@ public class AmbianceRandom : MonoBehaviour
             // Attend jusqu'à ce qu'il reste "dureeFondu" secondes à la piste
             float debutFonduSortie = Mathf.Max(0f, piste.length - dureeFondu);
             while (source.isPlaying && source.time < debutFonduSortie)
+            {
                 yield return null;
+            }
 
             yield return Fondu(source.volume, 0f, dureeFondu);
             source.Stop();
@@ -82,7 +89,10 @@ public class AmbianceRandom : MonoBehaviour
             // Silence entre les pistes
             float pause = Random.Range(pauseEntrePistes.x, pauseEntrePistes.y);
             if (pause > 0f)
+            {
                 yield return new WaitForSeconds(pause);
+            }
+
         }
     }
 

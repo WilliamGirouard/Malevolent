@@ -21,12 +21,18 @@ public class CameraSuivi : MonoBehaviour
 
         // Place la caméra directement sur le joueur au démarrage (évite le saut des couches parallax)
         if (cible != null)
-            transform.position = Objectif();
+        {
+           transform.position = Objectif(); 
+        }
+            
     }
 
     private void LateUpdate()
     {
-        if (cible == null) return;
+        if (cible == null)
+        {
+          return;  
+        } 
 
         transform.position = Vector3.SmoothDamp(transform.position, Objectif(), ref vitesse, lissage);
     }
