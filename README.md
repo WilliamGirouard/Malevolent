@@ -26,10 +26,10 @@ Your goal is simple: **survive and escape the monster that killed your friends.*
 
 | Action | Keys |
 | --- | --- |
-| Move left | `←` / `A` / `Q` |
+| Move left | `←` / `A` |
 | Move right | `→` / `D` |
 | Run | Hold `Shift` while moving |
-| Jump over obstacles | `↑` / `W` / `Z` |
+| Jump over obstacles | `↑` / `W` |
 | Crouch (stops movement) | `↓` / `S` |
 | Quick Time Events | Random keys shown on screen |
 
