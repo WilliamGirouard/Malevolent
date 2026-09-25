@@ -44,6 +44,8 @@ public class JoueurMouvement : MonoBehaviour
 
     private void Update()
     {
+        if (!peutBouger) return;
+
         direction = 0f;
         court = false;
         EstAccroupi = false;
@@ -105,6 +107,8 @@ public class JoueurMouvement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Debug.Log($"dir={direction}, vitesse={vitesseMarche}, auSol={EstAuSol}");
+        if (!peutBouger) return;
         EstAuSol = VerifierSol();
 
         // Accroupi = immobile (il peut quand même se tourner)
